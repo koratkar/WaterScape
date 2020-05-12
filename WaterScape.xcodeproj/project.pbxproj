@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C42FC960246499AD006A9356 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FC95F246499AD006A9356 /* AppDelegate.swift */; };
-		C42FC962246499AD006A9356 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FC961246499AD006A9356 /* SceneDelegate.swift */; };
 		C42FC964246499AD006A9356 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42FC963246499AD006A9356 /* ViewController.swift */; };
 		C42FC967246499AE006A9356 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42FC965246499AD006A9356 /* Main.storyboard */; };
 		C42FC969246499B0006A9356 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42FC968246499B0006A9356 /* Assets.xcassets */; };
 		C42FC96C246499B0006A9356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42FC96A246499B0006A9356 /* LaunchScreen.storyboard */; };
+		C43F3A31246A3A7600938C5C /* rainsound.wav in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A30246A3A7600938C5C /* rainsound.wav */; };
+		C43F3A33246B266600938C5C /* beethoven.wav in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A32246B266600938C5C /* beethoven.wav */; };
+		C43F3A3A246B429A00938C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A39246B429900938C5C /* AppDelegate.swift */; };
+		C43F3A3C246B46CA00938C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C42FC95C246499AD006A9356 /* WaterScape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterScape.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C42FC95F246499AD006A9356 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C42FC961246499AD006A9356 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C42FC963246499AD006A9356 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C42FC966246499AD006A9356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C42FC968246499B0006A9356 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C42FC96B246499B0006A9356 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C42FC96D246499B0006A9356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C43F3A30246A3A7600938C5C /* rainsound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rainsound.wav; sourceTree = "<group>"; };
+		C43F3A32246B266600938C5C /* beethoven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beethoven.wav; sourceTree = "<group>"; };
+		C43F3A39246B429900938C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,25 @@
 		C42FC95E246499AD006A9356 /* WaterScape */ = {
 			isa = PBXGroup;
 			children = (
-				C42FC95F246499AD006A9356 /* AppDelegate.swift */,
-				C42FC961246499AD006A9356 /* SceneDelegate.swift */,
+				C43F3A3D246B470100938C5C /* sounds */,
+				C42FC968246499B0006A9356 /* Assets.xcassets */,
+				C43F3A39246B429900938C5C /* AppDelegate.swift */,
+				C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */,
 				C42FC963246499AD006A9356 /* ViewController.swift */,
 				C42FC965246499AD006A9356 /* Main.storyboard */,
-				C42FC968246499B0006A9356 /* Assets.xcassets */,
 				C42FC96A246499B0006A9356 /* LaunchScreen.storyboard */,
 				C42FC96D246499B0006A9356 /* Info.plist */,
 			);
 			path = WaterScape;
+			sourceTree = "<group>";
+		};
+		C43F3A3D246B470100938C5C /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A32246B266600938C5C /* beethoven.wav */,
+				C43F3A30246A3A7600938C5C /* rainsound.wav */,
+			);
+			path = sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +139,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43F3A31246A3A7600938C5C /* rainsound.wav in Resources */,
 				C42FC96C246499B0006A9356 /* LaunchScreen.storyboard in Resources */,
 				C42FC969246499B0006A9356 /* Assets.xcassets in Resources */,
+				C43F3A33246B266600938C5C /* beethoven.wav in Resources */,
 				C42FC967246499AE006A9356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C43F3A3A246B429A00938C5C /* AppDelegate.swift in Sources */,
 				C42FC964246499AD006A9356 /* ViewController.swift in Sources */,
-				C42FC960246499AD006A9356 /* AppDelegate.swift in Sources */,
-				C42FC962246499AD006A9356 /* SceneDelegate.swift in Sources */,
+				C43F3A3C246B46CA00938C5C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.koratkar.WaterScape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.koratkar.WaterScape;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

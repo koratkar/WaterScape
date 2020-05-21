@@ -12,11 +12,28 @@ class SettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
     
-
+    var VCController = ViewController()
+    var repeatLabel: UILabel?
+    
+    @IBOutlet weak var repeatSwitch: UISwitch!
+    
+    
+    @IBAction func repeatSwitchPressed(_ sender: Any) {
+        if repeatSwitch.isOn == true {
+            VCController.repeatForever = true
+            repeatLabel?.text = "on"
+        } else if repeatSwitch.isOn != true {
+            VCController.repeatForever = false
+            repeatLabel?.text = "off"
+        }
+    }
+    
+    
+   
     /*
     // MARK: - Navigation
 

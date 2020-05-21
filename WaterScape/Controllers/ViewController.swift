@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         do {
             try session.setCategory(AVAudioSession.Category.playback)
         } catch {
-            print("something went wrong, chopper")
+            print("something went wrong, chopper") 
         } 
     }
     

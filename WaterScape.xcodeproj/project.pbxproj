@@ -15,6 +15,7 @@
 		C43F3A33246B266600938C5C /* beethoven.wav in Resources */ = {isa = PBXBuildFile; fileRef = C43F3A32246B266600938C5C /* beethoven.wav */; };
 		C43F3A3A246B429A00938C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A39246B429900938C5C /* AppDelegate.swift */; };
 		C43F3A3C246B46CA00938C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */; };
+		C4B01D2124720F44001F2BCE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B01D2024720F44001F2BCE /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C43F3A32246B266600938C5C /* beethoven.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beethoven.wav; sourceTree = "<group>"; };
 		C43F3A39246B429900938C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C4B01D2024720F44001F2BCE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,13 +62,11 @@
 		C42FC95E246499AD006A9356 /* WaterScape */ = {
 			isa = PBXGroup;
 			children = (
-				C43F3A3D246B470100938C5C /* sounds */,
 				C42FC968246499B0006A9356 /* Assets.xcassets */,
-				C43F3A39246B429900938C5C /* AppDelegate.swift */,
-				C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */,
-				C42FC963246499AD006A9356 /* ViewController.swift */,
-				C42FC965246499AD006A9356 /* Main.storyboard */,
-				C42FC96A246499B0006A9356 /* LaunchScreen.storyboard */,
+				C4B01D2224720F6B001F2BCE /* Controllers */,
+				C43F3A3D246B470100938C5C /* sounds */,
+				C43F3A41246F526E00938C5C /* Delegates */,
+				C43F3A40246F525600938C5C /* Story Boards */,
 				C42FC96D246499B0006A9356 /* Info.plist */,
 			);
 			path = WaterScape;
@@ -79,6 +79,33 @@
 				C43F3A30246A3A7600938C5C /* rainsound.wav */,
 			);
 			path = sounds;
+			sourceTree = "<group>";
+		};
+		C43F3A40246F525600938C5C /* Story Boards */ = {
+			isa = PBXGroup;
+			children = (
+				C42FC965246499AD006A9356 /* Main.storyboard */,
+				C42FC96A246499B0006A9356 /* LaunchScreen.storyboard */,
+			);
+			path = "Story Boards";
+			sourceTree = "<group>";
+		};
+		C43F3A41246F526E00938C5C /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */,
+				C43F3A39246B429900938C5C /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		C4B01D2224720F6B001F2BCE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C42FC963246499AD006A9356 /* ViewController.swift */,
+				C4B01D2024720F44001F2BCE /* SettingsViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,6 +184,7 @@
 				C43F3A3A246B429A00938C5C /* AppDelegate.swift in Sources */,
 				C42FC964246499AD006A9356 /* ViewController.swift in Sources */,
 				C43F3A3C246B46CA00938C5C /* SceneDelegate.swift in Sources */,
+				C4B01D2124720F44001F2BCE /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

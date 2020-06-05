@@ -105,6 +105,7 @@ class ViewController: UIViewController, audioControl {
             
                // Pass the selected object to the new view controller.
             let settingsViewController = segue.destination as! SettingsViewController
+            
             settingsViewController.delegate = self
             settingsViewController.repeatLabel = repeatLabel
             settingsViewController.repeatNumber = repeatNumber

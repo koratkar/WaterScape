@@ -16,6 +16,7 @@
 		C43F3A3A246B429A00938C5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A39246B429900938C5C /* AppDelegate.swift */; };
 		C43F3A3C246B46CA00938C5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */; };
 		C4B01D2124720F44001F2BCE /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4B01D2024720F44001F2BCE /* SettingsViewController.swift */; };
+		C4CB0D182489E8B2003F2890 /* repeatTester.wav in Resources */ = {isa = PBXBuildFile; fileRef = C4CB0D172489E8B2003F2890 /* repeatTester.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C43F3A39246B429900938C5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C43F3A3B246B46CA00938C5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C4B01D2024720F44001F2BCE /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		C4CB0D172489E8B2003F2890 /* repeatTester.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = repeatTester.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +65,9 @@
 			isa = PBXGroup;
 			children = (
 				C42FC968246499B0006A9356 /* Assets.xcassets */,
+				C43F3A41246F526E00938C5C /* Delegates */,
 				C4B01D2224720F6B001F2BCE /* Controllers */,
 				C43F3A3D246B470100938C5C /* sounds */,
-				C43F3A41246F526E00938C5C /* Delegates */,
 				C43F3A40246F525600938C5C /* Story Boards */,
 				C42FC96D246499B0006A9356 /* Info.plist */,
 			);
@@ -75,6 +77,7 @@
 		C43F3A3D246B470100938C5C /* sounds */ = {
 			isa = PBXGroup;
 			children = (
+				C4CB0D172489E8B2003F2890 /* repeatTester.wav */,
 				C43F3A32246B266600938C5C /* beethoven.wav */,
 				C43F3A30246A3A7600938C5C /* rainsound.wav */,
 			);
@@ -170,6 +173,7 @@
 				C42FC96C246499B0006A9356 /* LaunchScreen.storyboard in Resources */,
 				C42FC969246499B0006A9356 /* Assets.xcassets in Resources */,
 				C43F3A33246B266600938C5C /* beethoven.wav in Resources */,
+				C4CB0D182489E8B2003F2890 /* repeatTester.wav in Resources */,
 				C42FC967246499AE006A9356 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
